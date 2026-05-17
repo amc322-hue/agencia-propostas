@@ -1,0 +1,72 @@
+{
+  "scoreAtual": 18,
+  "scoreComSite": 82,
+  "problemas": [
+    {
+      "titulo": "Invisibilidade em buscas locais (\"construção Coimbra\", \"reformas Aveiro\")",
+      "descricao": "Clientes potenciais procuram no Google \"construtor perto de mim\" ou \"reforma casa Coimbra\" mas não encontram BuildPro. Concorrentes com site aparecem acima. Perda de 40-60% dos leads locais.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem portfólio visual de obras completadas",
+      "descricao": "Não é possível mostrar fotos de antes/depois de reformas, ampliações, ou novas construções. Clientes não conseguem avaliar qualidade de acabamentos ou estilos que BuildPro realiza. Dependência total de boca-a-boca.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Ausência de sistema de orçamentos online",
+      "descricao": "Cliente potencial tem que telefonar ou mandar SMS. Perde interesse se não atender logo. Sem formulário de contacto, sem agendamento de visita de orçamento, sem gestão automática de pedidos.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem prova de credibilidade ou certificações visíveis",
+      "descricao": "Não é possível mostrar licenças de construção, certificações ACQN, seguros de responsabilidade civil, ou clientes satisfeitos. Cliente novo não consegue validar se é empresa séria ou amador.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Ausência de presença Google Maps e Reviews",
+      "descricao": "BuildPro não aparece no Maps nem tem reviews no Google. Concorrentes com site conseguem 4.8★ em reviews verificadas. Clientes novos escolhem quem tem avaliações visíveis.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem comunicação sobre prazos ou atualizações de projetos em curso",
+      "descricao": "Cliente está na middle do projeto (obra parada 2 semanas) e não consegue ver status online. Fica preocupado. Um portal privado com fotos do progresso da obra reduz dúvidas e aumenta confiança.",
+      "impacto": "médio"
+    }
+  ],
+  "oportunidades": [
+    {
+      "titulo": "Galeria 3D com Antes/Depois + Virtual Tours",
+      "descricao": "Permitir clientes explorar em 360º reformas concluídas. Cozinhas, casas de banho, fachadas. Clientes veem qualidade em detalhe e conseguem imaginar na sua casa. Conversão de leads em propostas aumenta 35%."
+    },
+    {
+      "titulo": "Portal privado de acompanhamento de obras em tempo real",
+      "descricao": "Cliente acede com password a fotos diárias da sua obra, cronograma, e pode deixar mensagens. Reduz stress, aumenta NPS, e abre porta a upsells e recomendações futuras."
+    },
+    {
+      "titulo": "Sistema de agendamento + cálculo de orçamentos rápido",
+      "descricao": "Pequena calculadora online de orçamentos (m² × €/m² para tipos comuns: cozinha, casa banho, fachada). Agendamento automático de visita. Captura 20-30 leads/mês locais que antes eram perdidos."
+    }
+  ],
+  "concorrentes": [
+    {
+      "nome": "Construções Silva Coimbra",
+      "urlSite": "construcoes-silva-coimbra.pt",
+      "vantagem": "Site com portfólio de 45 obras, Google Maps 4.7★ com 120 reviews, agendador online de orçamentos."
+    },
+    {
+      "nome": "Reformas & Ampliações Aveiro (ReA)",
+      "urlSite": "rea-construcao.com",
+      "vantagem": "Blog com 30+ artigos sobre tipos de obra (teóricos), galeria de antes/depois, newsletter semanal, presença forte Instagram."
+    },
+    {
+      "nome": "BuildCentral Leiria",
+      "urlSite": "buildcentral-leiria.pt",
+      "vantagem": "Portal privado para clientes (fotos diárias da obra), API integrada com fornecedores de materiais, pagamento online de faturas."
+    }
+  ],
+  "roiEstimado": {
+    "leadsAdicionais": "+40-60 leads qualificados/mês (vs. ~5-10 atualmente via boca-a-boca)",
+    "faturacaoExtra": "+€45k-80k/ano (estimado 20-25% mais propostas convertidas)",
+    "prazoRetorno": "6-9 meses (investimento site + SEO local: ~€3.5k-5k iniciais, +€400/mês manutenção)"
+  }
+}
