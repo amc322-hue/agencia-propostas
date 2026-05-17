@@ -1,0 +1,72 @@
+{
+  "scoreAtual": 18,
+  "scoreComSite": 82,
+  "problemas": [
+    {
+      "titulo": "Pacientes perdem-se antes de contactar",
+      "descricao": "Sem site, sem Google My Business otimizado. Pacientes procuram 'clínica geral Setúbal' e veem concorrentes. Perdem-se os contactos por falta de visibilidade online. A clínica vive apenas do passa-palavra.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Impossível marcar consulta 24/7",
+      "descricao": "Pacientes precisam telefonar durante horário comercial. Noites, fins de semana, feriados: sem marcações. Clientes vão para concorrentes com agendamento online. Carga administrativa aumentada.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Falta confiança antes do primeiro contacto",
+      "descricao": "Sem fotos de médicos, sem biografias, sem especialidades listadas online. Paciente novo não consegue confirmar que é clínica legítima, com profissionais registados. Desconfiança leva a zero consultas.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Zero avaliações online (Reviews vazias)",
+      "descricao": "Pacientes não encontram reviews reais da clínica. Google/Facebook mostram vazio. Concorrentes com 4.7★ em 120 reviews ganham. Clínica invisível nas buscas locais. Impacto brutal na decisão de pacientes.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Incompatível com plataformas de seguros",
+      "descricao": "Sem integração com comparadores (Multicare, etc.). Pacientes com seguros de saúde filtram por clínicas no comparador — Clínica Dr. Santos não aparece. Perde-se um segmento de mercado inteiro.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Sem prova de autorização e compliance",
+      "descricao": "Sem exibição clara de registo na Ordem dos Médicos, certificações de higiene, GDPR, etc. Paciente novo desconfia. Concorrentes com badges de confiança ganham. Sem SEO local, fica perdida em Setúbal.",
+      "impacto": "médio"
+    }
+  ],
+  "oportunidades": [
+    {
+      "titulo": "Agendamento online integrado + SMS confirmação",
+      "descricao": "Site com calendário de disponibilidade em tempo real. Paciente marca 24/7. SMS confirma automaticamente. Reduz falta-a-consultas (no-shows) em 40%. Aumenta eficiência. Pacientes felizes voltam."
+    },
+    {
+      "titulo": "Página de médicos com especialidades + horários",
+      "descricao": "Cada médico tem perfil (foto, especialidades, anos de experiência, Ordem dos Médicos). Pacientes veem logo quem consultam. Rankings por especialidade (Cardiologia, Ginecologia, etc). Aumenta credibilidade. Pacientes consultam colegas específicos."
+    },
+    {
+      "titulo": "Integração com Multicare + Google Reviews automático",
+      "descricao": "Clínica aparece em comparadores de seguros. Pacientes com subsistema de saúde encontram. Pedido automático de review depois de consulta. 50+ reviews em 6 meses. Google coloca no topo. Leva-se +200 consultas/ano."
+    }
+  ],
+  "concorrentes": [
+    {
+      "nome": "Clínica Premium Setúbal",
+      "urlSite": "clinicapremiumsetubal.pt",
+      "vantagem": "Site moderno, agendamento online, 4.8★ em 156 reviews, integrada no Multicare"
+    },
+    {
+      "nome": "Dr. Gonçalves & Associados",
+      "urlSite": "drgoncalves-setubal.com",
+      "vantagem": "Blog com artigos de saúde (rankeia em Google), 20+ anos online, aparece 1º em buscas 'clínica geral Setúbal'"
+    },
+    {
+      "nome": "ClinicaGen Saúde",
+      "urlSite": "clinicagen.pt",
+      "vantagem": "Integrada em 3 plataformas de seguros, WhatsApp para agendamento, 4.6★ rating, presença forte em redes sociais"
+    }
+  ],
+  "roiEstimado": {
+    "leadsAdicionais": "+180-220 consultas/mês (vs. 40-50 mensais atuais)",
+    "faturacaoExtra": "+€36.000-44.000/ano (estimado em consultas privadas + copagamentos de seguros)",
+    "prazoRetorno": "8-12 meses (investimento inicial: €4.000-6.000 em site + SEO + primeiros meses)"
+  }
+}
