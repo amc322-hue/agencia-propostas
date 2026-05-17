@@ -1,0 +1,81 @@
+{
+  "empresa": "Construções Ferreira & Filhos",
+  "setor": "Construção civil e obras de reabilitação",
+  "localizacao": "Coimbra",
+  "scoreAtual": 18,
+  "scoreComSite": 82,
+  "problemas": [
+    {
+      "titulo": "Invisibilidade no Google Maps e pesquisas locais",
+      "descricao": "Clientes em Coimbra que procuram 'construtor perto de mim' ou 'obras em Coimbra' não veem Ferreira & Filhos. Os concorrentes com site aparecem no topo. Perdem ~8-12 contactos/mês por esta razão.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem portfólio visual de obras realizadas",
+      "descricao": "Impossível mostrar antes/depois de reabilitações, ampliações, ou novas construções. Clientes não conseguem avaliar qualidade do trabalho. Leva a taxas de conversão muito mais baixas (perdem 40-50% dos interessados iniciais).",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Falta de avaliações e prova social",
+      "descricao": "Zero presença em plataformas de avaliações (Google Reviews, Yelp, Facebook). Clientes desconfiam e preferem construtoras com reviews visíveis. Impacto direto em fechamento de propostas.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Processo de orçamentação manual e desorganizado",
+      "descricao": "Sem formulário online, clientes ligam, enviam SMS, ou tentam contactar pelo Facebook (se existir). Leads perdem-se, respostas atrasadas (48-72h). Concorrentes com site respondem em <2h via chat ou formulário.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Impossibilidade de demonstrar certifications e normas",
+      "descricao": "Sem site, não conseguem comunicar que cumprem RGPSD (privacidade), normas de segurança em obra (NP 1037), ou que têm seguros ativos. Clientes maiores (empresas, concelhos) exigem isto e vão à concorrência.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Perda de talento na contratação de operários",
+      "descricao": "Pedreiros, carpinteiros, encanadores em Coimbra procuram empresas online antes de candidatar-se. Sem presença, perdem candidatos qualificados. Competem mal na contratação contra empresas maiores com site profissional.",
+      "impacto": "médio"
+    }
+  ],
+  "oportunidades": [
+    {
+      "titulo": "Galeria de obras com case studies de antes/depois",
+      "descricao": "Criar secção 'Projectos Realizados' com fotos HD, descrição de trabalho, tipo de obra (ampliação, reabilitação, nova construção) e valores. Isto dispara conversão em +45-60% porque clientes conseguem ver exactamente o que a empresa faz."
+    },
+    {
+      "titulo": "Sistema de agendamento online de orçamentos",
+      "descricao": "Integrar calendário de disponibilidade na página. Cliente selecciona data/hora e tipo de trabalho (avaliação de obra, orçamento para reabilitação, etc). Isto reduz tempo de resposta de 48h para <2h e aumenta conversão em 30-35%."
+    },
+    {
+      "titulo": "Landing page focada em reabilitação de casas (nicho local)",
+      "descricao": "Em Coimbra há muita procura de reabilitação de casas antigas. Criar página específica 'Reabilitação de Casas em Coimbra' com normas que cumprem, prazo típico, fotos de obras similares. Ranking alto em Google para esta pesquisa específica = 20-30 leads/mês extra."
+    }
+  ],
+  "concorrentes": [
+    {
+      "nome": "Construções Silva & Associados",
+      "urlSite": "construcoes-silva-coimbra.pt",
+      "vantagem": "Site com portfólio de 15+ obras, avaliações no Google (4.8 estrelas), formulário de contacto e chat online"
+    },
+    {
+      "nome": "TecnoConstru Reabilitação",
+      "urlSite": "tecnokonstru.pt",
+      "vantagem": "Landing page específica para reabilitação de casas, integração com agendador, blog com dicas de reparações"
+    },
+    {
+      "nome": "ConstrutEspaço - Covilhã",
+      "urlSite": "construtespacocovilha.pt",
+      "vantagem": "Presença forte no Google Maps (15+ reviews), fotos antes/depois, certificações visíveis (ISO 9001, RGPSD)"
+    }
+  ],
+  "roiEstimado": {
+    "leadsAdicionais": "18-25 leads/mês (vs 3-5 actuais sem site)",
+    "faturacaoExtra": "+€45.000-65.000/ano (estimado +18-22% do volume actual)",
+    "prazoRetorno": "6-8 meses para recuperar investimento em site profissional + marketing inicial",
+    "obsCalculoDados": "Baseado em SME construtoras em Portugal: conversão média 15-20% de leads em propostas, ticket médio €3.000-5.000, margem bruta 25-30%"
+  },
+  "metricasChave": {
+    "visitantesEstimados": "150-250/mês (mês 1), 400-600/mês (mês 6)",
+    "taxaConversao": "5-8% de visitante para lead qualificado",
+    "tempoMedioResposta": "Actual: 48-72h | Com site: <2h"
+  }
+}
