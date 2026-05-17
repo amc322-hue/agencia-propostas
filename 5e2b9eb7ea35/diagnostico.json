@@ -1,0 +1,88 @@
+{
+  "empresa": "Obras Costa Lda",
+  "localidade": "Coimbra",
+  "sector": "Construção Civil",
+  "dataAvaliacao": "2026-05-17",
+  "scoreAtual": 18,
+  "scoreComSite": 82,
+  "problemas": [
+    {
+      "titulo": "Invisibilidade em buscas locais",
+      "descricao": "Clientes em Coimbra que procuram 'empresa construção' ou 'reparações casa Coimbra' não encontram Obras Costa. Concorrentes com Google Business Profile otimizado aparecem em primeiro lugar.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Falta de portfólio visual online",
+      "descricao": "Não consegue mostrar antes/depois de obras realizadas. Clientes confiam em projetos anteriores: casas remodeladas em Coimbra, edifícios comerciais, obra nova. Sem provas visuais, perde credibilidade.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem comprovação de qualificações",
+      "descricao": "Não consegue exibir certificações (ISO 9001, segurança no trabalho), licenças municipais válidas ou parcerias com fornecedores reconhecidos. Clientes desconfiam se é empresa legítima.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Perde leads de reformas online",
+      "descricao": "Proprietários em Coimbra que pesquisam no Google 'empresa reparações urgentes' ou 'reforma apartamento Coimbra' contactam concorrentes. Zero presença significa zero leads desse canal.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Sem avaliações verificadas",
+      "descricao": "Concorrentes têm 4.8★ no Google com 127 avaliações. Obras Costa tem zero. Clientes modernos verificam reviews antes de confiar a reforma da casa a alguém desconhecido.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Comunicação desatualizada",
+      "descricao": "Depende de cartazes, panfletos e word-of-mouth. Não consegue comunicar promoções sazonais (pré-época construção primavera/verão), novos serviços ou horários de atendimento em tempo real.",
+      "impacto": "médio"
+    }
+  ],
+  "oportunidades": [
+    {
+      "titulo": "Captar leads de reformas residenciais",
+      "descricao": "Coimbra tem elevado número de prédios antigos. Com site + Google Ads otimizado para 'reparação humidade Coimbra' e 'substituição janelas', pode gerar 15-20 leads/mês qualificados de proprietários dispostos a gastar €5k-€50k."
+    },
+    {
+      "titulo": "Documentar e vender expertise em projetos específicos",
+      "descricao": "Criar case studies de projectos: renovação de habitações T2, reabilitação de fachadas, instalação de isolamento térmico. Proprietários indeciso entre empresas pagam 5-10% mais por portfólio comprovado. +25% na taxa de conversão."
+    },
+    {
+      "titulo": "Dominar pesquisa local com Google Business + resenhas",
+      "descricao": "Primeiros 3 clientes satisfeitos deixam review de 5★. Cada 10 resenhas positivas aumenta 30% as impressões em buscas locais. Com presença consolidada em 6 meses, pode conquistar 60% do mercado local de Coimbra."
+    }
+  ],
+  "concorrentes": [
+    {
+      "nome": "ConstroAção - Engenharia e Reforma",
+      "urlSite": "www.constroacao.pt",
+      "vantagem": "Site com 52 projetos documentados, Google My Business com 4.7★ (89 reviews), blog com dicas de manutenção que atrai tráfego orgânico mensal."
+    },
+    {
+      "nome": "Covilhã & Filhos Construtores",
+      "urlSite": "www.covilha-construtores.pt",
+      "vantagem": "Presença ativa em redes sociais (Instagram com 1,200 seguidores), fotos de obras antes/depois, vídeos de 30s de reformas em progresso. 3-5 leads/semana via contactos do site."
+    },
+    {
+      "nome": "Grupo Construção Beira Interior",
+      "urlSite": "www.gcbi.pt",
+      "vantagem": "Newsletter mensal com 800 subscritos, calculadora de orçamento online, integração com Whatsapp Business. Automatiza 40% do atendimento inicial."
+    }
+  ],
+  "roiEstimado": {
+    "leadsAdicionais": "15-20 leads/mês em 6 meses (vs. 0 atualmente). 3 conversões por mês = €30k-€75k em novos contratos mensais.",
+    "faturacaoExtra": "Incremento de €360k-€900k/ano (12 contratos × €30k-€75k valor médio). Margem bruta 35-45% = €126k-€405k/ano de lucro adicional.",
+    "prazoRetorno": "3-4 meses (custo site €1,500 + SEO local €300/mês durante 4 meses = €2,700). Retorno estimado em 2 meses com primeira conversão."
+  },
+  "recomendacoes": {
+    "urgente": [
+      "Criar Google Business Profile verificado com fotos de 5 projetos recentes",
+      "Montar site responsivo com portfólio + formulário de contacto/orçamento",
+      "Fotografar 3-4 obras em progresso para usar em caso de estudo"
+    ],
+    "curtoProzo": [
+      "Investir em Google Ads local (€200/mês) para 'empresa construção Coimbra'",
+      "Incentivar clientes a deixar reviews (WhatsApp link Google Review)",
+      "Publicar 2 posts/semana sobre dicas de construção/reforma no Instagram"
+    ]
+  }
+}
