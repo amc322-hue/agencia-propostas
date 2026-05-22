@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta Digital — Consultório Saúde</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="" rel="stylesheet">
+<style>
+  :root {
+    --primaria: #356d8e;
+    --secundaria: #9684c0;
+    --acento: #cf2b71;
+    --texto: #222d34;
+    --fundo: #f8f9f9;
+    --neutra-clara: #f7f8f9;
+    --fonte-t: 'Plus Jakarta Sans', serif;
+    --fonte-c: 'Lato', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--fonte-c); color: var(--texto); background: var(--fundo); }
+  .container { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* Header */
+  .proposta-header {
+    background: var(--primaria);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .proposta-header .badge {
+    background: rgba(255,255,255,0.15);
+    padding: .25rem .75rem;
+    border-radius: 999px;
+    font-size: .8rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  .proposta-header h1 {
+    font-family: var(--fonte-t);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    margin-bottom: .5rem;
+  }
+  .proposta-header p { opacity: .85; font-size: 1.1rem; }
+
+  /* Score */
+  .score-section {
+    background: var(--neutra-clara);
+    padding: 3rem 0;
+  }
+  .score-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .score-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(0,0,0,.06);
+  }
+  .score-numero {
+    font-family: var(--fonte-t);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: .5rem;
+  }
+  .score-card.atual .score-numero { color: #e53e3e; }
+  .score-card.depois .score-numero { color: #38a169; }
+
+  /* Problemas */
+  .section { padding: 3rem 0; }
+  .section h2 {
+    font-family: var(--fonte-t);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--primaria);
+  }
+  .problema {
+    border-left: 4px solid;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 0 8px 8px 0;
+  }
+  .problema.alto { border-color: #e53e3e; }
+  .problema.médio { border-color: #dd6b20; }
+  .impacto-badge { font-size: .75rem; font-weight: 600; display: block; margin-bottom: .5rem; }
+  .problema h4 { font-weight: 600; margin-bottom: .25rem; }
+  .problema p { font-size: .9rem; opacity: .8; }
+
+  /* Demo */
+  .demo-section {
+    background: var(--primaria);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .demo-section h2 { font-family: var(--fonte-t); font-size: 1.75rem; margin-bottom: 1rem; color: white; }
+  .btn-demo {
+    display: inline-block;
+    background: var(--acento);
+    color: var(--texto);
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 1.5rem 0;
+    transition: transform .2s;
+  }
+  .btn-demo:hover { transform: translateY(-2px); }
+
+  /* Oportunidades */
+  .oportunidade {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--neutra-clara);
+  }
+  .oportunidade span { font-size: 1.5rem; flex-shrink: 0; }
+  .oportunidade strong { display: block; margin-bottom: .25rem; }
+  .oportunidade p { font-size: .9rem; opacity: .75; }
+
+  /* Investimento */
+  .investimento-section { background: var(--neutra-clara); padding: 3rem 0; }
+  .preco-destaque {
+    background: white;
+    border: 2px solid var(--primaria);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  .preco-valor {
+    font-family: var(--fonte-t);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primaria);
+  }
+  .preco-periodo { font-size: .9rem; opacity: .7; }
+
+  /* CTA Final */
+  .cta-section { padding: 3rem 0; text-align: center; }
+  .cta-section h2 { font-family: var(--fonte-t); font-size: 1.75rem; margin-bottom: 1rem; }
+  .btn-aceitar {
+    display: inline-block;
+    background: var(--primaria);
+    color: white;
+    padding: 1.25rem 3rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: .5rem;
+  }
+  .btn-whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 1.25rem 3rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: .5rem;
+  }
+
+  /* ROI */
+  .roi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .roi-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .roi-card strong { display: block; color: var(--primaria); font-size: 1.25rem; margin-bottom: .5rem; }
+
+  @media (max-width: 600px) {
+    .score-grid, .roi-grid { grid-template-columns: 1fr; }
+    .btn-aceitar, .btn-whatsapp { display: block; margin: .5rem 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="proposta-header">
+  <div class="container">
+    <span class="badge">🌐 Proposta Digital Personalizada</span>
+    <h1>Diagnóstico Digital<br>Consultório Saúde</h1>
+    <p>Clinica em Viseu — Proposta válida 7 dias</p>
+  </div>
+</div>
+
+<section class="score-section">
+  <div class="container">
+    <h2 style="font-family: var(--fonte-t); font-size: 1.75rem; margin-bottom: .5rem;">Presença Digital Atual vs Potencial</h2>
+    <div class="score-grid">
+      <div class="score-card atual">
+        <div class="score-numero">10</div>
+        <div class="score-label" style="font-weight:600">Pontuação Atual</div>
+        <div style="font-size:.9rem;opacity:.7;margin-top:.5rem">Sem presença digital otimizada</div>
+      </div>
+      <div class="score-card depois">
+        <div class="score-numero">88</div>
+        <div class="score-label" style="font-weight:600">Com o Novo Site</div>
+        <div style="font-size:.9rem;opacity:.7;margin-top:.5rem">Presença digital profissional</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>🔴 6 Problemas Identificados</h2>
+    
+    <div class="problema alto">
+      <span class="impacto-badge">🔴 Alto Impacto</span>
+      <h4>Invisível no Google</h4>
+      <p>Quando alguém pesquisa "clinica Viseu", Consultório Saúde não aparece.</p>
+    </div>
+
+    <div class="problema alto">
+      <span class="impacto-badge">🔴 Alto Impacto</span>
+      <h4>Sem credibilidade online</h4>
+      <p>Clientes novos não conseguem verificar a qualidade do trabalho antes de contactar.</p>
+    </div>
+
+    <div class="problema alto">
+      <span class="impacto-badge">🔴 Alto Impacto</span>
+      <h4>Perde para a concorrência</h4>
+      <p>Concorrentes com site recebem mais contactos — mesmo sendo piores.</p>
+    </div>
+
+    <div class="problema médio">
+      <span class="impacto-badge">🟡 Médio Impacto</span>
+      <h4>Sem presença no Maps</h4>
+      <p>Sem site linkado ao Google Business, o perfil perde relevância local.</p>
+    </div>
+
+    <div class="problema médio">
+      <span class="impacto-badge">🟡 Médio Impacto</span>
+      <h4>Não capta leads 24/7</h4>
+      <p>Sem formulário ou WhatsApp automatizado, perde contactos fora do horário.</p>
+    </div>
+
+    <div class="problema médio">
+      <span class="impacto-badge">🟡 Médio Impacto</span>
+      <h4>Sem prova social digital</h4>
+      <p>Avaliações e depoimentos não têm onde ser mostrados de forma profissional.</p>
+    </div>
+  </div>
+</section>
+
+<div class="demo-section">
+  <div class="container">
+    <h2>🎨 Já Criámos o Seu Site</h2>
+    <p>Desenvolvemos um site completo, personalizado para Consultório Saúde.<br>Está disponível para ver agora:</p>
+    <a href="https://demo.agencia.pt/consultorio-saude-viseu-mpgovdyk" target="_blank" class="btn-demo">👀 Ver o Meu Site Demo</a>
+    <p style="opacity:.7;font-size:.9rem">Site criado especificamente para Consultório Saúde — não é template</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>✅ Oportunidades Identificadas</h2>
+    <div>
+    <div class="oportunidade">
+      <span>✅</span>
+      <div>
+        <strong>Aparecer no topo do Google local</strong>
+        <p>Otimização SEO para "clinica Viseu" — pesquisa com milhares de buscas/mês.</p>
+      </div>
+    </div>
+
+    <div class="oportunidade">
+      <span>✅</span>
+      <div>
+        <strong>Converter visitas em orçamentos</strong>
+        <p>Formulário de contacto específico ao sector aumenta conversão em 3-5x.</p>
+      </div>
+    </div>
+
+    <div class="oportunidade">
+      <span>✅</span>
+      <div>
+        <strong>Credibilidade instantânea</strong>
+        <p>Portfolio profissional e depoimentos verificados fecham mais negócios.</p>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="investimento-section">
+  <div class="container">
+    <h2 style="font-family: var(--fonte-t); font-size: 1.75rem; margin-bottom: .5rem;">💰 Investimento</h2>
+
+    <div class="preco-destaque">
+      <div style="font-size:.9rem;margin-bottom:.5rem;">Criação do Site Profissional</div>
+      <div class="preco-valor">€497</div>
+      <div class="preco-periodo">pagamento único + €35/mês manutenção</div>
+      <div style="margin-top:1rem;font-size:.9rem;opacity:.7">
+        Inclui: design exclusivo, alojamento, domínio (.pt), SEO local, WhatsApp bot, suporte
+      </div>
+    </div>
+
+    <div class="roi-grid">
+      <div class="roi-card">
+        <strong>10-20 novos contactos/mês</strong>
+        <span>Novos contactos estimados</span>
+      </div>
+      <div class="roi-card">
+        <strong>€2.000-€8.000/mês de negócio adicional</strong>
+        <span>Faturação adicional potencial</span>
+      </div>
+      <div class="roi-card">
+        <strong>2-4 meses</strong>
+        <span>Prazo de retorno do investimento</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>🚀 Próximos Passos</h2>
+    <p style="margin-bottom:1.5rem">O site está pronto. Basta confirmar e publicamos em 24h.</p>
+    <a href="https://api.whatsapp.com/send?phone=351937492149&text=Ol%C3%A1%2C+vi+a+proposta+para+Consult%C3%B3rio%20Sa%C3%BAde+e+quero+avan%C3%A7ar" target="_blank" class="btn-whatsapp">
+      💬 Aceitar via WhatsApp
+    </a>
+    <a href="mailto:amc322@gmail.com?subject=Proposta Consultório Saúde&body=Olá, aceito a proposta para Consultório Saúde." class="btn-aceitar">
+      📧 Aceitar via Email
+    </a>
+    <p style="margin-top:1.5rem;font-size:.85rem;opacity:.6">
+      Garantia de satisfação: se não gostar do resultado, devolvemos €497 — sem perguntas.
+    </p>
+  </div>
+</section>
+
+<footer style="background:var(--primaria);color:white;text-align:center;padding:2rem;font-size:.85rem;opacity:.9">
+  <div>Agência Web Premium Portugal · 2026</div>
+  <div style="opacity:.6;margin-top:.5rem">Proposta exclusiva para Consultório Saúde · Ref: 47a1075ba3f1</div>
+</footer>
+
+</body>
+</html>
