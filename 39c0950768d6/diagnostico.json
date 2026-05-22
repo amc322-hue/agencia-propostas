@@ -1,0 +1,62 @@
+{
+  "scoreAtual": 10,
+  "scoreComSite": 88,
+  "problemas": [
+    {
+      "titulo": "Invisível no Google",
+      "descricao": "Quando alguém pesquisa \"estetica Faro\", Spa Relaxar não aparece.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem credibilidade online",
+      "descricao": "Clientes novos não conseguem verificar a qualidade do trabalho antes de contactar.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Perde para a concorrência",
+      "descricao": "Concorrentes com site recebem mais contactos — mesmo sendo piores.",
+      "impacto": "alto"
+    },
+    {
+      "titulo": "Sem presença no Maps",
+      "descricao": "Sem site linkado ao Google Business, o perfil perde relevância local.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Não capta leads 24/7",
+      "descricao": "Sem formulário ou WhatsApp automatizado, perde contactos fora do horário.",
+      "impacto": "médio"
+    },
+    {
+      "titulo": "Sem prova social digital",
+      "descricao": "Avaliações e depoimentos não têm onde ser mostrados de forma profissional.",
+      "impacto": "médio"
+    }
+  ],
+  "oportunidades": [
+    {
+      "titulo": "Aparecer no topo do Google local",
+      "descricao": "Otimização SEO para \"estetica Faro\" — pesquisa com milhares de buscas/mês."
+    },
+    {
+      "titulo": "Converter visitas em orçamentos",
+      "descricao": "Formulário de contacto específico ao sector aumenta conversão em 3-5x."
+    },
+    {
+      "titulo": "Credibilidade instantânea",
+      "descricao": "Portfolio profissional e depoimentos verificados fecham mais negócios."
+    }
+  ],
+  "concorrentes": [
+    {
+      "nome": "Estetica Santos & Associados",
+      "urlSite": "#",
+      "vantagem": "Aparecem em 1º no Google para o sector"
+    }
+  ],
+  "roiEstimado": {
+    "leadsAdicionais": "10-20 novos contactos/mês",
+    "faturacaoExtra": "€2.000-€8.000/mês de negócio adicional",
+    "prazoRetorno": "2-4 meses"
+  }
+}
